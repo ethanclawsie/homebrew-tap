@@ -1,6 +1,6 @@
 cask "copyshelf" do
-  version "0.2.1"
-  sha256 "c654e0076abb0a7242db269e355e316f21d650961e35a54dff03e735b455b8c0"
+  version "0.3.0"
+  sha256 "a950096eb9d461e9510b6c014c4514c8cc10591aa9ea46b339b98bedfbcd566b"
 
   url "https://github.com/ethanclawsie/copyshelf-mac/releases/download/v#{version}/CopyShelf-#{version}.zip"
   name "CopyShelf"
