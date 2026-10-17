@@ -1,6 +1,6 @@
 cask "binder" do
-  version "1.1.1"
-  sha256 "782e235943b87f9b92c1713568129cd99a26455edf6f3a1accc0f28826acbbaa"
+  version "1.1.2"
+  sha256 "ea3802bc95263e6f7922c522650c85dc434832ff2e0f4a8517fcf2bd3b4a901b"
 
   url "https://github.com/ethanclawsie/binder-mac/releases/download/v#{version}/Binder-#{version}.zip"
   name "Binder"
