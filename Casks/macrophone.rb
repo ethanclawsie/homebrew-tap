@@ -1,6 +1,6 @@
 cask "macrophone" do
-  version "0.1.0"
-  sha256 "253c7d3f0205efe279fcffb610f9ad6425067fdf68daa751a90026d9581cbefa"
+  version "0.1.1"
+  sha256 "e7aef94ec63af1230f4ee097350f6c2c51b0be5ba26aafef12ec55c9c55593d3"
 
   url "https://github.com/ethanclawsie/macrophone/releases/download/v#{version}/Macrophone-#{version}.zip"
   name "Macrophone"
