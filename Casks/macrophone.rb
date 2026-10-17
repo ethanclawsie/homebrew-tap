@@ -1,6 +1,6 @@
 cask "macrophone" do
-  version "0.1.1"
-  sha256 "e7aef94ec63af1230f4ee097350f6c2c51b0be5ba26aafef12ec55c9c55593d3"
+  version "0.1.2"
+  sha256 "8842f069430c9e583c4a4f0496d318a793cac7e55f76417f799307bad0644595"
 
   url "https://github.com/ethanclawsie/macrophone/releases/download/v#{version}/Macrophone-#{version}.zip"
   name "Macrophone"
@@ -8,7 +8,7 @@ cask "macrophone" do
   homepage "https://github.com/ethanclawsie/macrophone"
 
   depends_on arch: :arm64
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "Macrophone.app"
 
