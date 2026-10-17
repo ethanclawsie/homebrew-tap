@@ -1,6 +1,6 @@
 cask "binder" do
-  version "1.1.2"
-  sha256 "ea3802bc95263e6f7922c522650c85dc434832ff2e0f4a8517fcf2bd3b4a901b"
+  version "1.1.3"
+  sha256 "69f85a1d5add9d3192415fef3748668b65f5a453f47ed972aeca27193e277811"
 
   url "https://github.com/ethanclawsie/binder-mac/releases/download/v#{version}/Binder-#{version}.zip"
   name "Binder"
@@ -8,7 +8,7 @@ cask "binder" do
   homepage "https://github.com/ethanclawsie/binder-mac"
 
   depends_on arch: :arm64
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "Binder.app"
 
